@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/therealcoolpup/static/css/main.a5ac1d0e.chunk.css",
+    "main.js": "/therealcoolpup/static/js/main.380d1979.chunk.js",
+    "main.js.map": "/therealcoolpup/static/js/main.380d1979.chunk.js.map",
+    "runtime-main.js": "/therealcoolpup/static/js/runtime-main.99292718.js",
+    "runtime-main.js.map": "/therealcoolpup/static/js/runtime-main.99292718.js.map",
+    "static/js/2.ac07ae4d.chunk.js": "/therealcoolpup/static/js/2.ac07ae4d.chunk.js",
+    "static/js/2.ac07ae4d.chunk.js.map": "/therealcoolpup/static/js/2.ac07ae4d.chunk.js.map",
+    "index.html": "/therealcoolpup/index.html",
+    "precache-manifest.b9fde9a67cbaf2973883c0fc6a9b43ee.js": "/therealcoolpup/precache-manifest.b9fde9a67cbaf2973883c0fc6a9b43ee.js",
+    "service-worker.js": "/therealcoolpup/service-worker.js",
+    "static/css/main.a5ac1d0e.chunk.css.map": "/therealcoolpup/static/css/main.a5ac1d0e.chunk.css.map",
+    "static/js/2.ac07ae4d.chunk.js.LICENSE.txt": "/therealcoolpup/static/js/2.ac07ae4d.chunk.js.LICENSE.txt",
+    "static/media/me.png": "/therealcoolpup/static/media/me.9e90889b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99292718.js",
+    "static/js/2.ac07ae4d.chunk.js",
+    "static/css/main.a5ac1d0e.chunk.css",
+    "static/js/main.380d1979.chunk.js"
+  ]
+}
