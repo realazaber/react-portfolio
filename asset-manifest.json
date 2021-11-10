@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/therealcoolpup/static/css/main.a5ac1d0e.chunk.css",
-    "main.js": "/therealcoolpup/static/js/main.380d1979.chunk.js",
-    "main.js.map": "/therealcoolpup/static/js/main.380d1979.chunk.js.map",
-    "runtime-main.js": "/therealcoolpup/static/js/runtime-main.99292718.js",
-    "runtime-main.js.map": "/therealcoolpup/static/js/runtime-main.99292718.js.map",
-    "static/js/2.ac07ae4d.chunk.js": "/therealcoolpup/static/js/2.ac07ae4d.chunk.js",
-    "static/js/2.ac07ae4d.chunk.js.map": "/therealcoolpup/static/js/2.ac07ae4d.chunk.js.map",
-    "index.html": "/therealcoolpup/index.html",
-    "precache-manifest.b9fde9a67cbaf2973883c0fc6a9b43ee.js": "/therealcoolpup/precache-manifest.b9fde9a67cbaf2973883c0fc6a9b43ee.js",
-    "service-worker.js": "/therealcoolpup/service-worker.js",
-    "static/css/main.a5ac1d0e.chunk.css.map": "/therealcoolpup/static/css/main.a5ac1d0e.chunk.css.map",
-    "static/js/2.ac07ae4d.chunk.js.LICENSE.txt": "/therealcoolpup/static/js/2.ac07ae4d.chunk.js.LICENSE.txt",
-    "static/media/me.png": "/therealcoolpup/static/media/me.9e90889b.png"
+    "main.css": "/react-portfolio/static/css/main.a5ac1d0e.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.380d1979.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.380d1979.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.51deba80.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.51deba80.js.map",
+    "static/js/2.ac07ae4d.chunk.js": "/react-portfolio/static/js/2.ac07ae4d.chunk.js",
+    "static/js/2.ac07ae4d.chunk.js.map": "/react-portfolio/static/js/2.ac07ae4d.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.18a6d5969d9118b7915317185f3802b3.js": "/react-portfolio/precache-manifest.18a6d5969d9118b7915317185f3802b3.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.a5ac1d0e.chunk.css.map": "/react-portfolio/static/css/main.a5ac1d0e.chunk.css.map",
+    "static/js/2.ac07ae4d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ac07ae4d.chunk.js.LICENSE.txt",
+    "static/media/me.png": "/react-portfolio/static/media/me.9e90889b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.99292718.js",
+    "static/js/runtime-main.51deba80.js",
     "static/js/2.ac07ae4d.chunk.js",
     "static/css/main.a5ac1d0e.chunk.css",
     "static/js/main.380d1979.chunk.js"
