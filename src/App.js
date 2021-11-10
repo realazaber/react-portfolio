@@ -9,7 +9,7 @@ import wave1 from "./imgs/waves/1.png";
 function App() {
   return (
    <>
-   <img src={wave1} width="100%" alt="wave"  />
+   <img src={wave1} width="100%" alt="wave" id="wave1" />
      <Nav />
      <Home/>
      <About/>

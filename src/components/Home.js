@@ -18,7 +18,7 @@ function Home() {
                 </h1>
                 </Bounce>
                 
-                <img className="wave wave1" src={wave2} width="100%" alt="wave" />
+                <img className="wave wave1" src={wave2} width="100%" alt="wave" id="wave2" />
             </div>
         </>
     )

@@ -29,7 +29,7 @@ function About() {
                     </Bounce>
                 </div>
             </div>
-            <img className="upsideDown" src={wave3} width="100%" alt="wave" />
+            <img className="upsideDown" src={wave3} width="100%" alt="wave" id="wave3" />
         
         </>
     )

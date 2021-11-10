@@ -6,16 +6,16 @@ function Nav () {
     return (
         <Slide right>
                     <nav id="navbar">
-            <a href="#home">
+            <a href="#wave1">
                 Home
             </a>
-            <a href="#about">
+            <a href="#wave2">
                 About me
             </a>
-            <a href="#projects">
+            <a href="#wave3">
                 My Projects
             </a>
-            <a href="#contact">
+            <a href="#wave4">
                 Contact me
             </a>
         </nav> 

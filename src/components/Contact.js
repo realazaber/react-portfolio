@@ -9,7 +9,7 @@ function Contact() {
     return (
         <div>
 
-            <img className="wave" src={wave2} width="100%" alt="wave" />
+            <img className="wave" src={wave2} width="100%" alt="wave" id="wave4" />
             
             <div id="contact">
                 <h1 className="sectionTitleSecondary">
