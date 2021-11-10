@@ -15,21 +15,21 @@ function Projects() {
                     return (
                         <Bounce bottom >
                             <div>
-                            <div className="project">
-                            <img className="projectImage" src={projectInfo.img} alt={projectInfo.altTxt} />
-                            <div className="projectInfo">
-                                <div className="projectText">
-                                    {projectInfo.description}
-                                    <br /><br />
-                                    <a href={projectInfo.linkRepo} target="_blank" rel="noopener noreferrer">
-                                        <img className="github" src={GithubLogo} alt="github repo" />
-                                    </a>
-                                    <a href={projectInfo.linkWebsite} target="_blank" rel="noopener noreferrer"> 
-                                        <img className="github" src="https://img.icons8.com/material-rounded/48/000000/external-link.png" alt="project website"/>
-                                    </a>
-                                </div>
-                            </div>
-                        </div> 
+                                <div className="project">
+                                    <img className="projectImage" src={projectInfo.img} alt={projectInfo.altTxt} />
+                                        <div className="projectInfo">
+                                            <div className="projectText">
+                                                {projectInfo.description}
+                                                <br /><br />
+                                                <a href={projectInfo.linkRepo} target="_blank" rel="noopener noreferrer">
+                                                    <img className="github" src={GithubLogo} alt="github repo" />
+                                                </a>
+                                                <a href={projectInfo.linkWebsite} target="_blank" rel="noopener noreferrer"> 
+                                                    <img className="github" src="https://img.icons8.com/material-rounded/48/000000/external-link.png" alt="project website"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                </div> 
                             </div>
                         </Bounce>
 

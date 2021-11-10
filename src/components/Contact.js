@@ -3,6 +3,7 @@ import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 
 import wave2 from "../imgs/waves/2.png";
+import wave3 from "../imgs/waves/3.png";
 
 function Contact() {
     return (
@@ -38,6 +39,7 @@ function Contact() {
                     </form>
                 </Zoom>
             </div>
+            <img className="wave" src={wave3} width="100%" alt="wave" />
         
         </div>
     );
