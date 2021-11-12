@@ -6,6 +6,10 @@
     --darkwhite: #fcfdffd0;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--darkwhite);
     
