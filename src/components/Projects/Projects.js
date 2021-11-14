@@ -1,5 +1,4 @@
 import React from "react";
-import GithubLogo from "../../imgs/icons/github.png";
 import ProjectsData from "./ProjectsData.json";
 
 import Bounce from 'react-reveal/Bounce'; 

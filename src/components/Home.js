@@ -14,7 +14,15 @@ function Home() {
             
                 <Bounce right>
                 <h1 id="welcomeText">
-                    Hello there, I am Alex <span><i id="handWave" role="img" aria-label="handWave" alt="hand">👋</i></span><br /> a developer in Melbourne 
+                    Hello there, I am Alex 
+                    
+                        <i id="handWave" role="img" aria-label="handWave" alt="hand">
+                            <span role="img" aria-label="hand">
+                                👋
+                            </span>
+                        </i>
+                    
+                    <br /> a software developer in Melbourne 
                 </h1>
                 </Bounce>
                 
