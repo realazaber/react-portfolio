@@ -24,6 +24,7 @@ function Projects() {
                                                 <a href={projectInfo.linkRepo} target="_blank" rel="noopener noreferrer">
                                                     Repository >
                                                 </a>
+                                                <br />
                                                 <a href={projectInfo.linkWebsite} target="_blank" rel="noopener noreferrer"> 
                                                     Website >
                                                 </a>

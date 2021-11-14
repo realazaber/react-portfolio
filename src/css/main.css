@@ -160,7 +160,8 @@ body {
     text-decoration: none;
     font-weight: bold;
     margin: 0px 5px;
-    color: var(--blue)
+    color: var(--blue);
+
 }
 
 .github {
@@ -173,11 +174,7 @@ body {
 #moreProjects {
     text-align: center;
     color: var(--blue);
-    text-decoration: none;
-}
-
-#moreProjects:hover {
-    text-decoration: underline;
+    
 }
 
 
@@ -214,9 +211,9 @@ input:focus, textarea:focus {
 }
 
 #btnSubmit {
-    background-color: var(--blue);
-    border: 3px solid var(--cyan);
-    color: var(--cyan);
+    background-color: var(--cyan);
+    border: none;
+    color: var(--white);
     margin-top: 10px;
     font-size: large;
     padding: 15px 30px;
@@ -224,9 +221,7 @@ input:focus, textarea:focus {
 }
 
 #btnSubmit:hover {
-    background-color: var(--cyan);
-    border: 3px solid var(--blue);
-    color: var(--blue);
+    border-radius: 20px;
     transition-duration: 500ms;
 }
 
