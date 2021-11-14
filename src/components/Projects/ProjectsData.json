@@ -5,5 +5,12 @@
         "description": "Project management app made in Java using the Java FX library for the GUI and jdbc for the mySQL database.",
         "linkRepo": "https://github.com/therealcoolpup/java-project-management-app",
         "linkWebsite": "https://therealcoolpup.github.io/java-project-management-app/"   
+    },
+    {
+        "img": "https://therealcoolpup.github.io/bikehire-v2/screenshots/Bikes.png",
+        "altTxt": "Java swing app for bike hire",
+        "description": "App made in java swing for managing bike rentals.",
+        "linkRepo": "https://github.com/therealcoolpup/bikehire-v2",
+        "linkWebsite": "https://therealcoolpup.github.io/bikehire-v2"
     }
 ]
