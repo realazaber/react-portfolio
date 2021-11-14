@@ -9,10 +9,11 @@ function Projects() {
             <h1 className="sectionTitlePrimary">
                 My projects
             </h1>
+            <Bounce bottom cascade>
             <div id="projectsList">
                 {ProjectsData.map((projectInfo, key) => {
                     return (
-                        <Bounce bottom >
+                        
                             <div>
                                 <div className="project">
                                     <img className="projectImage" src={projectInfo.img} alt={projectInfo.altTxt} />
@@ -29,13 +30,12 @@ function Projects() {
                                             </div>
                                         </div>
                                 </div> 
-                            </div>
-                        </Bounce>
-
-                        
+                            </div>  
                     );
                 })}
+                
             </div>
+            </Bounce>
             <a id="moreProjects" href="https://github.com/therealcoolpup?tab=repositories" target="_blank" rel="noopener noreferrer">
                 <h2>
                     More projects
