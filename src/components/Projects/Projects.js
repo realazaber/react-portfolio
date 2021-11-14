@@ -22,10 +22,10 @@ function Projects() {
                                                 {projectInfo.description}
                                                 <br /><br />
                                                 <a href={projectInfo.linkRepo} target="_blank" rel="noopener noreferrer">
-                                                    <img className="github" src={GithubLogo} alt="github repo" />
+                                                    Repository >
                                                 </a>
                                                 <a href={projectInfo.linkWebsite} target="_blank" rel="noopener noreferrer"> 
-                                                    <img className="github" src="https://img.icons8.com/material-rounded/48/000000/external-link.png" alt="project website"/>
+                                                    Website >
                                                 </a>
                                             </div>
                                         </div>
