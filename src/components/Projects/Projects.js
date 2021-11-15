@@ -14,7 +14,7 @@ function Projects() {
                 {ProjectsData.map((projectInfo, key) => {
                     return (
                         
-                            <div>
+                            
                                 <div className="project">
                                     <img className="projectImage" src={projectInfo.img} alt={projectInfo.altTxt} />
                                         <div className="projectInfo">
@@ -31,7 +31,7 @@ function Projects() {
                                             </div>
                                         </div>
                                 </div> 
-                            </div>  
+                            
                     );
                 })}
                 

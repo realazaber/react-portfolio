@@ -7,6 +7,13 @@
         "linkWebsite": "https://therealcoolpup.github.io/java-project-management-app/"   
     },
     {
+        "img": "projectImgs/whats the weather.png",
+        "altTxt": "React weather app",
+        "description": "React weather app using open weather api.",
+        "linkRepo": "https://github.com/therealcoolpup/whats-the-weather",
+        "linkWebsite": "https://therealcoolpup.github.io/whats-the-weather/"
+    },
+    {
         "img": "projectImgs/Santa Cruz HTML CSS Email.png",
         "altTxt": "Sample HTML Email for Santa Cruz Skateboards",
         "description": "Sample HTML Email for Santa Cruz Skateboards.",
