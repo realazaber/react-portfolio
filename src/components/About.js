@@ -7,7 +7,7 @@ import Bounce from 'react-reveal/Bounce';
 function About() {
 
     return (
-        <>
+        <div>
             <div id="about">
                 <h1 className="sectionTitleSecondary">
                     About me
@@ -31,7 +31,7 @@ function About() {
             </div>
             <img className="upsideDown" src={wave3} width="100%" alt="wave" id="wave3" />
         
-        </>
+        </div>
     )
 }
 

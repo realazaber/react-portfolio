@@ -8,7 +8,7 @@ import Bounce from 'react-reveal/Bounce';
 function Home() {
 
     return (
-        <>
+        <div>
             
             <div id="home">
             
@@ -28,7 +28,7 @@ function Home() {
                 
                 <img className="wave wave1" src={wave2} width="100%" alt="wave" id="wave2" />
             </div>
-        </>
+        </div>
     )
 }
 

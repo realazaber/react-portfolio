@@ -8,14 +8,14 @@ import wave1 from "./imgs/waves/1.png";
 
 function App() {
   return (
-   <>
+   <div>
    <img src={wave1} width="100%" alt="wave" id="wave1" />
      <Nav />
      <Home/>
      <About/>
      <Projects/>
      <Contact/>
-   </>
+   </div>
   );
 }
 
