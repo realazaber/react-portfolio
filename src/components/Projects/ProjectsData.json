@@ -1,11 +1,5 @@
 [
-    {
-        "img": "https://therealcoolpup.github.io/java-project-management-app/images/screenshots/Multiple%20projects.png",
-        "altTxt": "Java project management app",
-        "description": "Project management app made in Java using the Java FX library for the GUI and jdbc for the mySQL database.",
-        "linkRepo": "https://github.com/therealcoolpup/java-project-management-app",
-        "linkWebsite": "https://therealcoolpup.github.io/java-project-management-app/"   
-    },
+
     {
         "img": "projectImgs/whats the weather.png",
         "altTxt": "React weather app",
@@ -19,6 +13,13 @@
         "description": "Sample HTML Email for Santa Cruz Skateboards.",
         "linkRepo": "https://github.com/therealcoolpup/email-receipt-santa-cruz",
         "linkWebsite": "https://therealcoolpup.github.io/email-receipt-santa-cruz/"
+    },
+    {
+        "img": "https://therealcoolpup.github.io/java-project-management-app/images/screenshots/Multiple%20projects.png",
+        "altTxt": "Java project management app",
+        "description": "Project management app made in Java using the Java FX library for the GUI and jdbc for the mySQL database.",
+        "linkRepo": "https://github.com/therealcoolpup/java-project-management-app",
+        "linkWebsite": "https://therealcoolpup.github.io/java-project-management-app/"   
     },
     {
         "img": "https://therealcoolpup.github.io/bikehire-v2/screenshots/Bikes.png",
