@@ -12,7 +12,7 @@ function Nav () {
             <a href="#wave2">
                 About me
             </a>
-            <a href="#wave3">
+            <a href="#projects">
                 My Projects
             </a>
             <a href="#wave4">

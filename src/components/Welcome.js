@@ -29,19 +29,19 @@ function Home() {
                 <Fade bottom cascade>
                     <div id="socials">
                         <a href="https://www.linkedin.com/in/alexander-zaborski-a7b7951a4/" target="_blank">
-                            <button className="btnSocial">
+                            <button className="btnMisc">
                                 LinkedIn
                             </button>
                         </a> 
 
                         <a href="https://github.com/therealcoolpup" target="_blank">
-                            <button className="btnSocial">
+                            <button className="btnMisc">
                                 Github
                             </button>
                         </a>
                         
                         <a href="https://www.fiverr.com/thecoderdragon?up_rollout=true" target="_blank">
-                            <button target="_blank" className="btnSocial">
+                            <button className="btnMisc">
                                 Fiverr
                             </button>   
                         </a>
