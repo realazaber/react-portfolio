@@ -3,6 +3,7 @@
     {
         "img": "projectImgs/whats the weather.png",
         "altTxt": "React weather app",
+        "category": "web-dev",
         "description": "React weather app using open weather api.",
         "linkRepo": "https://github.com/therealcoolpup/whats-the-weather",
         "linkWebsite": "https://therealcoolpup.github.io/whats-the-weather/"
@@ -10,6 +11,7 @@
     {
         "img": "projectImgs/Santa Cruz HTML CSS Email.png",
         "altTxt": "Sample HTML Email for Santa Cruz Skateboards",
+        "category": "web-dev",
         "description": "Sample HTML Email for Santa Cruz Skateboards.",
         "linkRepo": "https://github.com/therealcoolpup/email-receipt-santa-cruz",
         "linkWebsite": "https://therealcoolpup.github.io/email-receipt-santa-cruz/"
@@ -17,6 +19,7 @@
     {
         "img": "https://therealcoolpup.github.io/java-project-management-app/images/screenshots/Multiple%20projects.png",
         "altTxt": "Java project management app",
+        "category": "java",
         "description": "Project management app made in Java using the Java FX library for the GUI and jdbc for the mySQL database.",
         "linkRepo": "https://github.com/therealcoolpup/java-project-management-app",
         "linkWebsite": "https://therealcoolpup.github.io/java-project-management-app/"   
@@ -24,6 +27,7 @@
     {
         "img": "https://therealcoolpup.github.io/bikehire-v2/screenshots/Bikes.png",
         "altTxt": "Java swing app for bike hire",
+        "category": "java",
         "description": "App made in java swing for managing bike rentals.",
         "linkRepo": "https://github.com/therealcoolpup/bikehire-v2",
         "linkWebsite": "https://therealcoolpup.github.io/bikehire-v2"

@@ -58,17 +58,44 @@ body {
 
 #home {
     height: 60%;
+}
+
+
+#welcomeText {
+    color: var(--cyan);
+    
+    padding-top: 100px;
+    z-index: 3;
+    text-align: center;
     
 }
 
-#welcomeText {
-    
-    color: var(--cyan);
-    padding: 100px;
-    z-index: 3;
+#socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 320px;
+    padding: 15px 0px;
+}
 
-    text-align: center;
-    margin-bottom: 110px;
+.btnSocial {
+    margin: 0px 10px;
+    background-color: rgb(61,122,243);
+    background: linear-gradient(338deg, rgba(61,122,243,1) 39%, rgba(34,193,224,1) 100%);
+    color: var(--white);
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+.btnSocial:hover {
+    border-radius: 25px;
+    cursor: pointer;
+    background: rgb(61,122,243);
+    background: linear-gradient(338deg, rgba(61,122,243,1) 0%, rgba(34,193,224,1) 100%);
+    transition-duration: 500ms;
 }
 
 #handWave {
