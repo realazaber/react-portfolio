@@ -18,12 +18,12 @@ function MoreProjects() {
                         More projects
                     </h1>
                 </Fade>
-            </div>
-            <Link to="/">
-                <button id="btnBack">
+                <Link to="/" id="btnBack">
                     Back
-                </button>
-            </Link>
+                </Link>
+            </div>
+
+
 
 
             {/* Load all projects */}
@@ -31,7 +31,8 @@ function MoreProjects() {
                 <button className="btnProjectsNav">
                     All
                 </button>
-
+                
+                
 
             </div>
 

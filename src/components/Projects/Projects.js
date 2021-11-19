@@ -44,6 +44,9 @@ function Projects() {
                                 
                         );
                     }
+                    else {
+                        return (null);
+                    }
 
 
 
