@@ -26,6 +26,9 @@ function Projects() {
                                 <img className="projectImage" src={projectInfo.img} alt={projectInfo.altTxt} />
                                     <div className="projectInfo">
                                         <div className="projectText">
+                                            Category: {projectInfo.category}
+                                            <br /><br />
+
                                             {projectInfo.description}
                                             <br /><br />
                                             <a href={projectInfo.linkRepo} target="_blank" rel="noopener noreferrer">
