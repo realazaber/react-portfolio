@@ -225,6 +225,36 @@ body {
     background-color: red;
 }
 
+#moreProjectsNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#moreProjectsHeading .sectionTitlePrimary {
+    font-size: 35px;
+}
+
+
+.btnProjectsNav {
+    color: var(--white);
+    background-color: var(--cyan);
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    margin: 0px 10px;
+
+    transition-duration: 500ms;
+}
+
+.btnProjectsNav:hover {
+    border-radius: 15px;
+
+    transition-duration: 500ms;
+}
+
 
 #contact {
     background-color: var(--blue);
@@ -319,6 +349,8 @@ input:focus, textarea:focus {
     }
 
     #socials {
+        margin-top: 60px;
+
         flex-direction: row;
     }
 

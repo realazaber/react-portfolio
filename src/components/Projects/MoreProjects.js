@@ -25,6 +25,16 @@ function MoreProjects() {
                 </button>
             </Link>
 
+
+            {/* Load all projects */}
+            <div id="moreProjectsNav">
+                <button className="btnProjectsNav">
+                    All
+                </button>
+
+
+            </div>
+
         </Fragment>
     )
 }
