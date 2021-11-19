@@ -37,10 +37,10 @@ function Projects() {
                 
             </div>
             </Bounce>
-                <Link to="/more-projects">                    
-                    <h2 id="moreProjectsLink">
+                <Link id="moreProjectsLink" to="/more-projects">                    
+                    
                         More projects
-                    </h2>                
+                    
                 </Link>
             
         </div>

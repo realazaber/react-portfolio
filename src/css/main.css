@@ -173,10 +173,20 @@ body {
     height: 20%;
 }
 
-#moreProjects {
+#moreProjectsLink {
     text-align: center;
     color: var(--blue);
-    
+    text-decoration: none;
+    border-bottom: 3px solid var(--blue);
+    font-size: 30px;
+    font-weight: bold;
+    transition-duration: 500ms;
+}
+
+#moreProjectsLink:hover {
+    padding-bottom: 5px;
+    font-size: 35px;
+    transition-duration: 500ms;
 }
 
 
