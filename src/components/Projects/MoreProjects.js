@@ -1,17 +1,29 @@
 import React, { Fragment } from 'react';
 import { Link } from "react-router-dom";
 
+import ProjectsData from "./ProjectsData.json";
 
 import Fade from 'react-reveal/Fade';
 import wave1 from "../../imgs/waves/1.png";
 
 function MoreProjects() {
 
-    function test() {
-        alert("fart");
+
+    function displayCategory(category) {
+        alert(category);
     }
 
 
+    const categories = [];
+
+    ProjectsData.map((projectInfo, index) => {
+                            
+        if (!categories.includes(projectInfo.category)) {
+            categories.push(projectInfo.category);
+        }
+        return (null);
+        
+    })
 
     return (
 
@@ -39,18 +51,16 @@ function MoreProjects() {
                     <button className="btnProjectsNav">
                         All
                     </button>
-                    <button className="btnProjectsNav">
-                        All
-                    </button>
-                    <button className="btnProjectsNav">
-                        All
-                    </button>
-                    <button className="btnProjectsNav">
-                        All
-                    </button>
-                    <button className="btnProjectsNav">
-                        All
-                    </button>
+                    {
+                        categories.map((category, index) => {
+                            return (
+                                <button className="btnProjectsNav">
+                                    {category}
+                                </button>
+                            )
+                        })
+                    }
+
                 </div>
             </div>
             <div id="mobileView">
@@ -58,12 +68,15 @@ function MoreProjects() {
                         <option value="All">
                             All projects
                         </option>
-                        <option value="Web development">
-                            Web development
-                        </option>
-                        <option value="Application development">
-                            Application development
-                        </option>
+                        {
+                            categories.map((category, index) => {
+                                return (
+                                    <option value={category}>
+                                        {category}
+                                    </option>
+                                )
+                            })
+                        }
                     </select>
                 </div>
 

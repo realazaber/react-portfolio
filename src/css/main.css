@@ -253,6 +253,10 @@ body {
     transition-duration: 500ms;
 }
 
+.btnProjectsNav:active {
+    border-radius: 20px;
+}
+
 
 #contact {
     background-color: var(--blue);
@@ -501,7 +505,7 @@ input:focus, textarea:focus {
     }
 
     #mobileView {
-        margin-top: -30vw;
+        margin-top: -10vh;
         display: flex;
         align-items: center;
         justify-content: center;
