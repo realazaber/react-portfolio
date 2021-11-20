@@ -74,8 +74,7 @@ function MoreProjects() {
             </div>
         )
     }
-
-    
+   
 
     return (
 
