@@ -1,0 +1,27 @@
+import React from 'react'
+
+function Project(props) {
+    return (
+        <div className="project">
+            <img className="projectImage" src={props.img} alt={props.altTxt} />
+                <div className="projectInfo">
+                    <div className="projectText">
+                        Category: {props.category}
+                        <br /><br />
+
+                        {props.description}
+                        <br /><br />
+                        <a href={props.linkRepo} target="_blank" rel="noopener noreferrer">
+                            Repository >
+                        </a>
+                        <br />
+                        <a href={props.linkWebsite} target="_blank" rel="noopener noreferrer"> 
+                            Website >
+                        </a>
+                    </div>
+                </div>
+        </div> 
+    )
+}
+
+export default Project

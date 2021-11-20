@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectsData from "./ProjectsData.json";
+import Project from "./Project";
 
 import { Link } from "react-router-dom";
 
@@ -21,36 +22,20 @@ function Projects() {
                     //Only show first 4 projects. The rest are in more projects.
                     counter++;
                     if (counter <= 4) {
-                        return (                                                    
-                            <div className="project">
-                                <img className="projectImage" src={projectInfo.img} alt={projectInfo.altTxt} />
-                                    <div className="projectInfo">
-                                        <div className="projectText">
-                                            Category: {projectInfo.category}
-                                            <br /><br />
-
-                                            {projectInfo.description}
-                                            <br /><br />
-                                            <a href={projectInfo.linkRepo} target="_blank" rel="noopener noreferrer">
-                                                Repository >
-                                            </a>
-                                            <br />
-                                            <a href={projectInfo.linkWebsite} target="_blank" rel="noopener noreferrer"> 
-                                                Website >
-                                            </a>
-                                        </div>
-                                    </div>
-                            </div> 
-                                
+                        return (                                
+                            <Project
+                                img = {projectInfo.img}
+                                altTxt = {projectInfo.altTxt}
+                                category = {projectInfo.category}
+                                description = {projectInfo.description}
+                                linkRepo = {projectInfo.linkRepo}
+                                linkWebsite = {projectInfo.linkWebsite} 
+                            />                                
                         );
                     }
                     else {
                         return (null);
                     }
-
-
-
-                    
                 })}
                 
             </div>

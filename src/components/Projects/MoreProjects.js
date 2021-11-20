@@ -1,10 +1,12 @@
 import React, { useState, Fragment } from 'react';
 import { Link } from "react-router-dom";
 
-import ProjectsData from "./ProjectsData.json";
-
-import Fade from 'react-reveal/Fade';
 import wave1 from "../../imgs/waves/1.png";
+
+import ProjectsData from "./ProjectsData.json";
+import Project from './Project';
+import Fade from 'react-reveal/Fade';
+
 
 function MoreProjects() {
 
@@ -24,31 +26,24 @@ function MoreProjects() {
     function displayCategory(category) {
         return (
             <div id="projectsCategory">
+                
                 {
                     ProjectsData.map((projectInfo, index) => {
 
                         //If the all option is selected, show all projects.
                         if (category === "All") {
                             return (
-                                <div className="project">
-                                <img className="projectImage" src={projectInfo.img} alt={projectInfo.altTxt} />
-                                    <div className="projectInfo">
-                                        <div className="projectText">
-                                            Category: {projectInfo.category}
-                                            <br /><br />
-
-                                            {projectInfo.description}
-                                            <br /><br />
-                                            <a href={projectInfo.linkRepo} target="_blank" rel="noopener noreferrer">
-                                                Repository >
-                                            </a>
-                                            <br />
-                                            <a href={projectInfo.linkWebsite} target="_blank" rel="noopener noreferrer"> 
-                                                Website >
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div> 
+                                <Fade>
+                                    <Project
+                                        img = {projectInfo.img}
+                                        altTxt = {projectInfo.altTxt}
+                                        category = {projectInfo.category}
+                                        description = {projectInfo.description}
+                                        linkRepo = {projectInfo.linkRepo}
+                                        linkWebsite = {projectInfo.linkWebsite} 
+                                    /> 
+                                </Fade>
+                                
                             )
                         }
                         //If another category is selected then only show
@@ -56,25 +51,16 @@ function MoreProjects() {
                         else {
                             if (projectInfo.category === category) {
                                 return (
-                                    <div className="project">
-                                    <img className="projectImage" src={projectInfo.img} alt={projectInfo.altTxt} />
-                                        <div className="projectInfo">
-                                            <div className="projectText">
-                                                Category: {projectInfo.category}
-                                                <br /><br />
-    
-                                                {projectInfo.description}
-                                                <br /><br />
-                                                <a href={projectInfo.linkRepo} target="_blank" rel="noopener noreferrer">
-                                                    Repository >
-                                                </a>
-                                                <br />
-                                                <a href={projectInfo.linkWebsite} target="_blank" rel="noopener noreferrer"> 
-                                                    Website >
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div> 
+                                    <Fade>
+                                        <Project
+                                            img = {projectInfo.img}
+                                            altTxt = {projectInfo.altTxt}
+                                            category = {projectInfo.category}
+                                            description = {projectInfo.description}
+                                            linkRepo = {projectInfo.linkRepo}
+                                            linkWebsite = {projectInfo.linkWebsite} 
+                                        />  
+                                    </Fade>
                                 )
                             }
                             else {
@@ -83,6 +69,7 @@ function MoreProjects() {
                         }
                     })
                 }
+            
             </div>
         )
     }
