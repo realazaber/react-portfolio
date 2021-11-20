@@ -15,14 +15,16 @@ function Projects() {
             <h1 className="sectionTitlePrimary">
                 My projects
             </h1>
-            <Bounce bottom cascade>
+            
             <div id="projectsList">
+            
                 {ProjectsData.map((projectInfo, index) => {
 
                     //Only show first 4 projects. The rest are in more projects.
                     counter++;
                     if (counter <= 4) {
-                        return (                                
+                        return (
+                            <Bounce bottom>                                
                             <Project
                                 img={projectInfo.img}
                                 altTxt={projectInfo.altTxt}
@@ -30,16 +32,17 @@ function Projects() {
                                 description={projectInfo.description}
                                 linkRepo={projectInfo.linkRepo}
                                 linkWebsite={projectInfo.linkWebsite} 
-                            />                                
+                            />      
+                            </Bounce>                           
                         );
                     }
                     else {
                         return (null);
                     }
                 })}
-                
+               
             </div>
-            </Bounce>
+            
                 <Link id="moreProjectsLink" to="/more-projects">                    
                     
                         More projects

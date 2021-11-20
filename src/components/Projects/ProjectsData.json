@@ -1,7 +1,7 @@
 [
 
     {
-        "img": "projectImgs/whats the weather.png",
+        "img": "https://raw.githubusercontent.com/therealcoolpup/whats-the-weather/main/whats%20the%20weather.png",
         "altTxt": "React weather app",
         "category": "Web development",
         "description": "React weather app using open weather api.",
@@ -9,7 +9,7 @@
         "linkWebsite": "https://therealcoolpup.github.io/whats-the-weather/"
     },
     {
-        "img": "projectImgs/Santa Cruz HTML CSS Email.png",
+        "img": "https://raw.githubusercontent.com/therealcoolpup/email-receipt-santa-cruz/main/Santa%20Cruz%20HTML%20CSS%20Email.png",
         "altTxt": "Sample HTML Email for Santa Cruz Skateboards",
         "category": "Web development",
         "description": "Sample HTML Email for Santa Cruz Skateboards.",
