@@ -12,20 +12,21 @@
 
 * {
     scroll-behavior: smooth;
+    font-family: Helvetica;
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 body {
     background-color: var(--darkwhite);
+    position: relative;
     
     margin: 0;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
     
-}
-
-* {
-    font-family: Helvetica;
 }
 
 .sectionTitlePrimary {
