@@ -313,6 +313,7 @@ input:focus, textarea:focus {
     display: grid;
     margin: auto;
     width: 80%;
+    margin-bottom: 50px;
 }
 
 

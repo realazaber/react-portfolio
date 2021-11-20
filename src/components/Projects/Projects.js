@@ -24,12 +24,12 @@ function Projects() {
                     if (counter <= 4) {
                         return (                                
                             <Project
-                                img = {projectInfo.img}
-                                altTxt = {projectInfo.altTxt}
-                                category = {projectInfo.category}
-                                description = {projectInfo.description}
-                                linkRepo = {projectInfo.linkRepo}
-                                linkWebsite = {projectInfo.linkWebsite} 
+                                img={projectInfo.img}
+                                altTxt={projectInfo.altTxt}
+                                category={projectInfo.category}
+                                description={projectInfo.description}
+                                linkRepo={projectInfo.linkRepo}
+                                linkWebsite={projectInfo.linkWebsite} 
                             />                                
                         );
                     }

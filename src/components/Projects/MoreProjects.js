@@ -35,12 +35,12 @@ function MoreProjects() {
                             return (
                                 <Fade>
                                     <Project
-                                        img = {projectInfo.img}
-                                        altTxt = {projectInfo.altTxt}
-                                        category = {projectInfo.category}
-                                        description = {projectInfo.description}
-                                        linkRepo = {projectInfo.linkRepo}
-                                        linkWebsite = {projectInfo.linkWebsite} 
+                                        img={projectInfo.img}
+                                        altTxt={projectInfo.altTxt}
+                                        category={projectInfo.category}
+                                        description={projectInfo.description}
+                                        linkRepo={projectInfo.linkRepo}
+                                        linkWebsite={projectInfo.linkWebsite} 
                                     /> 
                                 </Fade>
                                 
@@ -53,12 +53,12 @@ function MoreProjects() {
                                 return (
                                     <Fade>
                                         <Project
-                                            img = {projectInfo.img}
-                                            altTxt = {projectInfo.altTxt}
-                                            category = {projectInfo.category}
-                                            description = {projectInfo.description}
-                                            linkRepo = {projectInfo.linkRepo}
-                                            linkWebsite = {projectInfo.linkWebsite} 
+                                            img={projectInfo.img}
+                                            altTxt={projectInfo.altTxt}
+                                            category={projectInfo.category}
+                                            description={projectInfo.description}
+                                            linkRepo={projectInfo.linkRepo}
+                                            linkWebsite={projectInfo.linkWebsite} 
                                         />  
                                     </Fade>
                                 )
@@ -68,6 +68,7 @@ function MoreProjects() {
                             }
                         }
                     })
+
                 }
             
             </div>
@@ -116,28 +117,31 @@ function MoreProjects() {
                 </div>
             </div>
             <div id="mobileView">
-                    <select id="categorySelector">
-                        <option value="All">
+                <select id="categorySelector" onChange={(event) => {setCategory(event.target.value)}}>
+                    <option value="All">
+                        
                             All projects
-                        </option>
-                        {
-                            categories.map((category, index) => {
-                                return (
-                                    <option value={category}>
-                                        {category}
-                                    </option>
-                                )
-                            })
+                        
+                        
+                    </option>
+                    {
+                        categories.map((category, index) => {
+                            return (
+                                <option value={category}>
+                                    {category}
+                                </option>
+                            )
+                        })
 
-                            
-                        }
+                        
+                    }
 
-                    </select>
-                </div>
+                </select>
+            </div>
+            {
+                displayCategory(category)
+            }
 
-                {
-                    displayCategory(category)
-                }
         </Fragment>
     )
 }
