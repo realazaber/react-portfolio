@@ -19,6 +19,8 @@ html, body {
     overflow-x: hidden;
 }
 
+
+
 body {
     background-color: var(--darkwhite);
     position: relative;
@@ -26,6 +28,9 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+
+    overflow-y: hidden;
     
 }
 
