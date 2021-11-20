@@ -30,7 +30,25 @@ function MoreProjects() {
                         //If the all option is selected, show all projects.
                         if (category === "All") {
                             return (
-                                <h1>{projectInfo.description}</h1>
+                                <div className="project">
+                                <img className="projectImage" src={projectInfo.img} alt={projectInfo.altTxt} />
+                                    <div className="projectInfo">
+                                        <div className="projectText">
+                                            Category: {projectInfo.category}
+                                            <br /><br />
+
+                                            {projectInfo.description}
+                                            <br /><br />
+                                            <a href={projectInfo.linkRepo} target="_blank" rel="noopener noreferrer">
+                                                Repository >
+                                            </a>
+                                            <br />
+                                            <a href={projectInfo.linkWebsite} target="_blank" rel="noopener noreferrer"> 
+                                                Website >
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
                             )
                         }
                         //If another category is selected then only show
@@ -38,7 +56,25 @@ function MoreProjects() {
                         else {
                             if (projectInfo.category === category) {
                                 return (
-                                    <h1>{projectInfo.description}</h1>
+                                    <div className="project">
+                                    <img className="projectImage" src={projectInfo.img} alt={projectInfo.altTxt} />
+                                        <div className="projectInfo">
+                                            <div className="projectText">
+                                                Category: {projectInfo.category}
+                                                <br /><br />
+    
+                                                {projectInfo.description}
+                                                <br /><br />
+                                                <a href={projectInfo.linkRepo} target="_blank" rel="noopener noreferrer">
+                                                    Repository >
+                                                </a>
+                                                <br />
+                                                <a href={projectInfo.linkWebsite} target="_blank" rel="noopener noreferrer"> 
+                                                    Website >
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> 
                                 )
                             }
                             else {
@@ -76,32 +112,25 @@ function MoreProjects() {
             {/* Load all projects */}
             <div id="moreProjectsNav">
                 <div id="desktopView">
-                    <button value="All" className="btnProjectsNav">
+                    <button value="All" className="btnProjectsNav" onClick={() => {setCategory("All")}}>
                         All
                     </button>
                     {
                         categories.map((category, index) => {
                             return (
-                                <button className="btnProjectsNav" value={category}>
+                                <button className="btnProjectsNav" value={category} onClick={() => {setCategory(category)}}>
                                     {category}
                                 </button>
                             )
-                        })
-                        
+                        })                                                
+                    }
 
-                        
-                    }
-                    {
-                        displayCategory(category)
-                    }
 
                 </div>
             </div>
             <div id="mobileView">
                     <select id="categorySelector">
-                        <option value="All" onChange={() => {
-                            alert("I farted");
-                        }}>
+                        <option value="All">
                             All projects
                         </option>
                         {
@@ -115,9 +144,13 @@ function MoreProjects() {
 
                             
                         }
+
                     </select>
                 </div>
 
+                {
+                    displayCategory(category)
+                }
         </Fragment>
     )
 }
