@@ -9,6 +9,7 @@ function App() {
     <Router>
       <Routes>
           <Route path="/" exact element={<Home />} />
+          <Route path="/react-portfolio" exact element={<Home />} />
           <Route path="/more-projects" exact element={<MoreProjects />} />
       </Routes>
     </Router>
