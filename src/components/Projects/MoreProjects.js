@@ -6,6 +6,13 @@ import Fade from 'react-reveal/Fade';
 import wave1 from "../../imgs/waves/1.png";
 
 function MoreProjects() {
+
+    function test() {
+        alert("fart");
+    }
+
+
+
     return (
 
         <Fragment>
@@ -28,13 +35,37 @@ function MoreProjects() {
 
             {/* Load all projects */}
             <div id="moreProjectsNav">
-                <button className="btnProjectsNav">
-                    All
-                </button>
-                
-                
-
+                <div id="desktopView">
+                    <button className="btnProjectsNav">
+                        All
+                    </button>
+                    <button className="btnProjectsNav">
+                        All
+                    </button>
+                    <button className="btnProjectsNav">
+                        All
+                    </button>
+                    <button className="btnProjectsNav">
+                        All
+                    </button>
+                    <button className="btnProjectsNav">
+                        All
+                    </button>
+                </div>
             </div>
+            <div id="mobileView">
+                    <select id="categorySelector">
+                        <option value="All">
+                            All projects
+                        </option>
+                        <option value="Web development">
+                            Web development
+                        </option>
+                        <option value="Application development">
+                            Application development
+                        </option>
+                    </select>
+                </div>
 
         </Fragment>
     )

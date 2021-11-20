@@ -394,6 +394,11 @@ input:focus, textarea:focus {
         
     }
 
+    #mobileView {
+        
+        visibility: hidden;
+    }
+
 
     #btnBack {
         position: fixed;
@@ -488,6 +493,33 @@ input:focus, textarea:focus {
 
     #moreProjectsNav {
         margin-top: 25px;
+        flex-direction: column;
+    }
+
+    #desktopView {
+        visibility: hidden;
+    }
+
+    #mobileView {
+        margin-top: -30vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #categorySelector {
+        border: none;
+        border-radius: 10px;
+        color: var(--background);
+        background-color: var(--cyan);
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .btnProjectsNav {
+        margin-top: 10px;
     }
 
     .github {
