@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { useState, Fragment } from 'react';
 import { Link } from "react-router-dom";
 
 import ProjectsData from "./ProjectsData.json";
@@ -8,11 +8,7 @@ import wave1 from "../../imgs/waves/1.png";
 
 function MoreProjects() {
 
-
-    function displayCategory(category) {
-        alert(category);
-    }
-
+    const [category, setCategory] = useState("All");
 
     const categories = [];
 
@@ -24,6 +20,38 @@ function MoreProjects() {
         return (null);
         
     })
+
+    function displayCategory(category) {
+        return (
+            <div id="projectsCategory">
+                {
+                    ProjectsData.map((projectInfo, index) => {
+
+                        //If the all option is selected, show all projects.
+                        if (category === "All") {
+                            return (
+                                <h1>{projectInfo.description}</h1>
+                            )
+                        }
+                        //If another category is selected then only show
+                        //Projects in that category.
+                        else {
+                            if (projectInfo.category === category) {
+                                return (
+                                    <h1>{projectInfo.description}</h1>
+                                )
+                            }
+                            else {
+                                return(null);
+                            }
+                        }
+                    })
+                }
+            </div>
+        )
+    }
+
+    
 
     return (
 
@@ -48,24 +76,32 @@ function MoreProjects() {
             {/* Load all projects */}
             <div id="moreProjectsNav">
                 <div id="desktopView">
-                    <button className="btnProjectsNav">
+                    <button value="All" className="btnProjectsNav">
                         All
                     </button>
                     {
                         categories.map((category, index) => {
                             return (
-                                <button className="btnProjectsNav">
+                                <button className="btnProjectsNav" value={category}>
                                     {category}
                                 </button>
                             )
                         })
+                        
+
+                        
+                    }
+                    {
+                        displayCategory(category)
                     }
 
                 </div>
             </div>
             <div id="mobileView">
                     <select id="categorySelector">
-                        <option value="All">
+                        <option value="All" onChange={() => {
+                            alert("I farted");
+                        }}>
                             All projects
                         </option>
                         {
@@ -76,6 +112,8 @@ function MoreProjects() {
                                     </option>
                                 )
                             })
+
+                            
                         }
                     </select>
                 </div>
