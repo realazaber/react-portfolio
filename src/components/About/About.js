@@ -25,7 +25,7 @@ function About() {
                         <div id="aboutMe">
                             <h1 id="aboutMeText">
                                 I have graduated from RMIT in 2021 with an associate degree in IT. I am passionate about all fields of IT 
-                                with my favourite being software developement. Everyday I strive to learn more.
+                                with my favourite being software development. Everyday I strive to learn more.
                             </h1>
                             <TechStack />
                         </div>
