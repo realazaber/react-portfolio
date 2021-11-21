@@ -39,6 +39,14 @@
         "description": "Christmas countdown made with React.",
         "linkRepo": "https://github.com/therealcoolpup/react-christmas-countdown",
         "linkWebsite": "https://therealcoolpup.github.io/react-christmas-countdown/"
+    },
+    {
+        "img": "https://raw.githubusercontent.com/therealcoolpup/react-tip-calculator/main/demo.png",
+        "altTxt": "Tip calculator made with React.",
+        "category": "Web development",
+        "description": "Tip calculator made with React.",
+        "linkRepo": "https://github.com/therealcoolpup/react-tip-calculator",
+        "linkWebsite": "https://therealcoolpup.github.io/react-tip-calculator/"
     }
 
 ]
