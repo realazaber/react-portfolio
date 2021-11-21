@@ -2,7 +2,7 @@ import React from 'react'
 
 function Project(props) {
     return (
-        <div className="project">
+        <div key={props.altTxt} className="project">
             <img className="projectImage" src={props.img} alt={props.altTxt} />
                 <div className="projectInfo">
                     <div className="projectText">

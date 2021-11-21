@@ -1,0 +1,50 @@
+[
+    {
+        "img": "./techStack/html.png",
+        "title": "HTML"
+    },
+    {
+        "img": "./techStack/css.png",
+        "title": "CSS"
+    },
+    {
+        "img": "./techStack/javascript.png",
+        "title": "Javascript"
+    },
+    {
+        "img": "./techStack/react.png",
+        "title": "React"
+    },
+    {
+        "img": "./techStack/php.png",
+        "title": "PHP"
+    },
+    {
+        "img": "./techStack/wordpress.png",
+        "title": "Wordpress"
+    },
+    {
+        "img": "./techStack/mysql.png",
+        "title": "MySQL"
+    },
+    {
+        "img": "./techStack/java.png",
+        "title": "Java"
+    },
+    {
+        "img": "./techStack/csharp.png",
+        "title": "C#"
+    },
+    {
+        "img": "./techStack/unity.png",
+        "title": "Unity"
+    },
+    {
+        "img": "./techStack/python.png",
+        "title": "Python"
+    },
+    {
+        "img": "./techStack/linux.png",
+        "title": "Linux"
+    }
+]

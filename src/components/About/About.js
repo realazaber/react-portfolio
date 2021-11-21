@@ -1,9 +1,9 @@
 import React from "react";
-import Profile from "../imgs/me.png";
+import Profile from "../../imgs/me.png";
 
 import TechStack from "./TechStack";
 
-import wave3 from "../imgs/waves/3.png";
+import wave3 from "../../imgs/waves/3.png";
 
 
 import Bounce from 'react-reveal/Bounce'; 
