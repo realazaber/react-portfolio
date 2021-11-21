@@ -401,6 +401,11 @@ input:focus, textarea:focus {
         text-decoration: none;
     }
 
+    #mobileMenu, #mobileNav {
+        display: none;
+        visibility: hidden;
+    }
+
     #welcomeText {
         text-align: center;
         
@@ -519,6 +524,47 @@ input:focus, textarea:focus {
         display: none;
         visibility: hidden;
     }
+
+    #mobileMenu {
+        position: fixed;
+        bottom: 20px;
+        right: 15px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        background: linear-gradient(338deg, rgba(61,122,243,1) 39%, rgba(34,193,224,1) 100%);
+        border: none;
+        color: var(--white);
+        font-weight: bold;
+        border-radius: 10px;
+        z-index: 5;
+    }
+
+    #mobileNav {
+        width: 0;
+        position: fixed;
+        z-index: 5;
+        height: 160px;
+        bottom: 0;
+        right: 0;
+        background-color: #22c0e0ec;
+        opacity: 0.3;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        border-top-left-radius: 10px;
+    }
+
+    #mobileNav a {
+        color: var(--white);
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 3px;
+    }
+
+
 
     #welcomeText {
     
