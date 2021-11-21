@@ -1,6 +1,10 @@
 import React from "react";
 import Profile from "../imgs/me.png";
+
+import TechStack from "./TechStack";
+
 import wave3 from "../imgs/waves/3.png";
+
 
 import Bounce from 'react-reveal/Bounce'; 
 
@@ -18,17 +22,18 @@ function About() {
                     </Bounce>
 
                     <Bounce right>
-                        <h1 id="aboutMe">
-                            I have graduated from RMIT in 2021 with an associate degree in IT. I am passionate about all fields of IT 
-                            with my favourite being software developement. I have experience in web development in frontend with HTML, 
-                            CSS, JavaScript and React and I have backend experience with PHP and SQL. 
-                            <br /> I also have experience in application programming with Java and C#. 
-                            <br />
-                            Everyday I strive to learn more.
-                        </h1>
+                        <div id="aboutMe">
+                            <h1 id="aboutMeText">
+                                I have graduated from RMIT in 2021 with an associate degree in IT. I am passionate about all fields of IT 
+                                with my favourite being software developement. Everyday I strive to learn more.
+                            </h1>
+                            <TechStack />
+                        </div>
+                        
                     </Bounce>
                 </div>
             </div>
+            <br />
             <img className="upsideDown" src={wave3} width="100%" alt="wave" id="wave3" />
         
         </div>

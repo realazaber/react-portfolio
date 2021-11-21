@@ -21,6 +21,7 @@ html, body {
 
 
 
+
 body {
     background-color: var(--darkwhite);
     position: relative;
@@ -33,6 +34,8 @@ body {
     overflow-y: hidden;
     
 }
+
+
 
 .sectionTitlePrimary {
     
@@ -135,7 +138,39 @@ body {
 }
 
 #aboutMe {
+    display: flex;
+    flex-direction: column;  
+    
+}
+
+#aboutMeText {
     color: var(--white);
+}
+
+#techStack {
+    display: grid;
+    
+    
+}
+
+.technology {
+    color: var(--white);
+    margin-top: 15px;
+}
+
+
+
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology img {
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 #projects {
@@ -388,10 +423,42 @@ input:focus, textarea:focus {
     }
 
     #aboutMe {
+        width: 50%;  
+        
+    }
+
+    #aboutMeText {
         flex-basis: 50%;
         text-align: center;
         line-height: 40px;
     }
+
+    #techStack {
+        width: 100%;
+        margin: auto;
+        grid-template-columns: repeat(6, 0.5fr);
+        
+        
+    }
+
+    .technology {
+        margin: 10px 10px;
+    }
+
+    .technology img {
+        width: 100px;
+        height: 100px;
+
+        transition-duration: 500ms;
+    }
+    
+    .technology img:hover {
+        transform: scale(1.1);
+
+        transition-duration: 500ms;
+    }
+    
+
 
     #projectsList {
         display: grid;
@@ -473,13 +540,29 @@ input:focus, textarea:focus {
     }
 
     #profileImg {
-        width: 80%;
+        width: 95%;
+        margin-bottom: -10px;
     }
 
     #aboutMe {
-        font-size: larger;
+        margin-top: -20px;
+        margin-bottom: 10px;
+    }
+
+    #aboutMeText {
+        font-size: 20px;
         padding: 15px 30px;
         text-align: center;
+    }
+
+    #techStack {
+        grid-template-columns: repeat(3, 0.5fr);
+
+    }
+
+    .technology img {
+        width: 80px;
+        height: 80px;
     }
 
     #projectsList {
