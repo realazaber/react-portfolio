@@ -6,6 +6,8 @@ function Project(props) {
             <img className="projectImage" src={props.img} alt={props.altTxt} />
                 <div className="projectInfo">
                     <div className="projectText">
+                        <h4>{props.altTxt}</h4>
+
                         Category: {props.category}
                         <br /><br />
 
@@ -20,6 +22,7 @@ function Project(props) {
                         </a>
                     </div>
                 </div>
+                
         </div> 
     )
 }
