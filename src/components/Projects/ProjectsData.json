@@ -25,6 +25,14 @@
         "linkWebsite": "https://therealcoolpup.github.io/java-project-management-app/"   
     },
     {
+        "img": "https://raw.githubusercontent.com/therealcoolpup/cheeky-chicken/main/demo.png",
+        "altTxt": "Remake of Cheeky Chicken Website.",
+        "category": "Web development",
+        "description": "Remake of Cheeky Chicken Website.",
+        "linkRepo": "https://github.com/therealcoolpup/cheeky-chicken",
+        "linkWebsite": "https://therealcoolpup.github.io/cheeky-chicken/"
+    },
+    {
         "img": "https://therealcoolpup.github.io/bikehire-v2/screenshots/Bikes.png",
         "altTxt": "Java swing app for bike hire",
         "category": "Application development",
