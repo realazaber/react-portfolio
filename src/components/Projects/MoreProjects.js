@@ -88,7 +88,7 @@ function MoreProjects() {
                         More projects
                     </h1>
                 </Fade>
-                <Link to="/react-portfolio/" id="btnBack">
+                <Link to="/" id="btnBack">
                     Back
                 </Link>
             </div>
