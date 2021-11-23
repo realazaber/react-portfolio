@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState, useEffect, Fragment } from 'react';
 import { Link } from "react-router-dom";
 
 import wave1 from "../../imgs/waves/1.png";
@@ -9,6 +9,11 @@ import Fade from 'react-reveal/Fade';
 
 
 function MoreProjects() {
+
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     const [category, setCategory] = useState("All");
 
